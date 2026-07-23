@@ -1,0 +1,118 @@
+//
+// _home.scss
+//
+
+/*********************************/
+/*            Home               */
+/*===============================*/
+@mixin home-common {
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+
+.bg-home {
+    height: 100vh;    
+    @include home-common();
+    @media (max-width: 767px) {
+        padding: 150px 0 !important;
+        height: auto;
+    }
+}
+
+.bg-half-260 {
+    padding: 260px 0;    
+    @include home-common();
+    @media (max-width: 768px) {
+        padding: 150px 0;
+        height: auto;
+    }
+}
+
+.bg-half {
+    padding: 200px 0 100px;    
+    @include home-common();
+    @media (max-width: 768px) {
+        padding: 120px 0 60px;
+        height: auto;
+    }
+}
+
+.bg-half-170 {
+    padding: 170px 0;    
+    @include home-common();
+    @media (max-width: 767px) {
+        padding: 120px 0;
+        height: auto;
+    }
+}
+
+//swiper slider
+.swiper-slider-hero {
+    .swiper-container,
+    .swiper-slide .slide-inner {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-container {        
+        .swiper-button-prev,
+        .swiper-button-next {
+            background: transparent;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            margin-top: -30px;
+            &:before {
+                font-family: "Material Design Icons";
+                font-weight: 900;
+                color: $white;
+            }
+            &:hover {
+                background: $primary;
+                border-color: $primary !important;
+            }
+        }
+        .swiper-button-prev {
+            left: 10px;
+            border: 1px solid rgba($white, 0.5);
+            &:before {
+                content: "\f0141";
+            }
+        }
+        .swiper-button-next {
+            right: 10px;
+            border: 1px solid rgba($white, 0.5);
+            &:before {
+                content: "\f0142";
+            }
+        }
+    }
+    .swiper-pagination-bullet {
+        color: $gray-100;
+        background: transparent;
+    }
+    .swiper-pagination-bullet-active {
+        color: $white;
+    }
+    .swiper-container-horizontal 
+    > .swiper-pagination-bullets,
+    .swiper-pagination-custom, 
+    .swiper-pagination-fraction {
+        bottom: 45px;
+    } 
+    .swiper-container-horizontal 
+    > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .swiper-slider-hero .swiper-container .swiper-slide {        
+        padding: 150px 0;
+        height: auto;
+    } 
+}

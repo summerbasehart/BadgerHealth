@@ -1,0 +1,39 @@
+//
+// _features.scss
+//
+
+/*********************************/
+/*         Features              */
+/*===============================*/
+.features {
+    transition: all 0.5s ease;
+    .title {
+        transition: all 0.5s ease;
+        &:hover {
+            color: $primary !important;
+        }
+    }
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+        top: 50% !important;
+        left: 50%;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        background: rgba($primary, 0.05) !important;
+    }
+
+    &.no-hover-effect {
+        &:hover {
+            transform: scale(1) !important;
+            background: transparent !important;
+        }
+    }
+}
+
+#countdown  .count-down .count-number,
+.features .feature-icon {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
