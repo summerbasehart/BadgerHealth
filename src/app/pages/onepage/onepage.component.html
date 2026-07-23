@@ -1,0 +1,90 @@
+<app-single-navbar activeSection="{{activeSection}}"/>
+
+<app-home-banner/>
+
+ <!-- Start -->
+ <section class="section" id="aboutus">
+    <div class="container">
+        <app-about-one/>
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-3">Services of Clinical Excellence</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">We value every human life placed in our hands and constantly work towards meeting the expectations of our patients.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <app-services/>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 text-center">
+                <a [routerLink]="'/services'" class="btn btn-link primary fs-6">See More Services <i class="mdi mdi-arrow-right"></i></a>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+
+<app-cta/>
+
+ <!-- Start -->
+ <section class="section" id="availability">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-3">Doctors Availability</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">We value every human life placed in our hands and constantly work towards meeting the expectations of our patients.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <app-availability/>
+</section><!--end section-->
+<!-- End -->
+
+<app-cta-two/>
+
+ <!-- Start -->
+ <section class="section bg-light" id="doctors">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-3">Doctor's Team</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">We value every human life placed in our hands and constantly work towards meeting the expectations of our patients.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <app-team/>
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+
+
+<section class="section" id="blogs">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-3">Blog Or News</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">We value every human life placed in our hands and constantly work towards meeting the expectations of our patients.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <app-blog/>
+
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End blog -->
+
+<app-footer/>
+
+<app-scroll-to-top/>

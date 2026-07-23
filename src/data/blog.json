@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "image":"assets/images/blog/1.jpg",
+        "tag":"BadgerHealth",
+        "title":"Easily connect to doctor and make a treatment",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"13th Sept 2024"
+    },
+    {
+        "id":2,
+        "image":"assets/images/blog/2.jpg",
+        "tag":"BadgerHealth",
+        "title":"Lockdowns lead to fewer people seeking medical care",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"29th Nov 2024"
+    },
+    {
+        "id":3,
+        "image":"assets/images/blog/3.jpg",
+        "tag":"BadgerHealth",
+        "title":"Medicine research course for doctors",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"29th Dec 2024"
+    },
+    {
+        "id":4,
+        "image":"assets/images/blog/4.jpg",
+        "tag":"BadgerHealth",
+        "title":"Comparing Nitrogen And Mechanical Freezers",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"13th March 2024"
+    },
+    {
+        "id":5,
+        "image":"assets/images/blog/5.jpg",
+        "tag":"BadgerHealth",
+        "title":"It Is Very Important To Wear Proper Clothing",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"5th May 2024"
+    },
+    {
+        "id":6,
+        "image":"assets/images/blog/6.jpg",
+        "tag":"BadgerHealth",
+        "title":"Hollowed-Out Faces More Cuts Amid Virus",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"19th June 2024"
+    },
+    {
+        "id":7,
+        "image":"assets/images/blog/7.jpg",
+        "tag":"BadgerHealth",
+        "title":"A Researcher Is Research On Coronavirus In Lab",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"20th June 2024"
+    },
+    {
+        "id":8,
+        "image":"assets/images/blog/8.jpg",
+        "tag":"BadgerHealth",
+        "title":"Using Spectroscopy To Assess Food Quality",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"31st Aug 2024"
+    },
+    {
+        "id":9,
+        "image":"assets/images/blog/9.jpg",
+        "tag":"BadgerHealth",
+        "title":"You Have To Wash Your Hands For 20 Seconds",
+        "desc":"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        "date":"1st Sept 2024"
+    }
+]

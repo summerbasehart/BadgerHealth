@@ -1,0 +1,50 @@
+[
+    {
+        "image":"assets/images/team/01.jpg",
+        "name":"Jack John",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/02.jpg",
+        "name":"Jeremiah Green",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/03.jpg",
+        "name":"Christina Vasquez",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/04.jpg",
+        "name":"Lillian Boldt",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/05.jpg",
+        "name":"Krista John",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/06.jpg",
+        "name":"Ricky Peters",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/07.jpg",
+        "name":"Roger Jackson",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    },
+    {
+        "image":"assets/images/team/08.jpg",
+        "name":"Camille Smith",
+        "position":"Doctor",
+        "social":["facebook","instagram","twitter"]
+    }
+]
