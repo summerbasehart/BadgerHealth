@@ -21,6 +21,8 @@ import { ComingsoonComponent } from './pages/comingsoon/comingsoon.component';
 import { MaintenanceComponent } from './pages/maintenance/maintenance.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { ContactusComponent } from './pages/contactus/contactus.component';
+import { CtaComponent } from './components/cta/cta.component';
+import { CtaTwoComponent } from './components/cta-two/cta-two.component';
 
 export const routes: Routes = [
     {path:'', component:IndexComponent},
@@ -46,4 +48,6 @@ export const routes: Routes = [
     {path:'maintenance', component:MaintenanceComponent},
     {path:'error', component:ErrorComponent},
     {path:'contactus', component:ContactusComponent},
+    {path:'book', component:CtaTwoComponent},
+
 ];
